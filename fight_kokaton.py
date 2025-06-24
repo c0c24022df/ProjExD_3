@@ -38,6 +38,9 @@ class Score:
         self.img = self.fonto.render(f"スコア:{self.score}", True, self.color)
         screen.blit(self.img, self.rect)
 
+class Explosion:
+    def __init__(self):
+        self.
 class Bird:
     """
     ゲームキャラクター（こうかとん）に関するクラス
