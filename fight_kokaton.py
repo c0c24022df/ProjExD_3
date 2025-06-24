@@ -164,6 +164,7 @@ def main():
     # for _ in range(NUM_OF_BOMBS):
     #     bombs.append(Bomb((255, 0, 0), 10))
     bombs = [Bomb((255, 0, 0), 10) for _ in range(NUM_OF_BOMBS)]
+    beams = [Beam]
     beam = None  # ゲーム初期化時にはビームは存在しない
     score = Score()
     clock = pg.time.Clock()
